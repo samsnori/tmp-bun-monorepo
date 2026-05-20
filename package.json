@@ -1,0 +1,9 @@
+{
+  "name": "workspace-test",
+  "version": "0.0.1",
+  "workspaces": [ "packages/*" ],
+  "catalog": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}

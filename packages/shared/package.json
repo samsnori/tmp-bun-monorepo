@@ -1,0 +1,12 @@
+{
+  "name": "@monorepo/shared",
+  "private": true,
+  "version": "0.0.1",
+  "dependencies": {
+    "react": "catalog:"
+  },
+  "exports": {
+    "./utils": "./src/utils/index.js",
+    "./ui": "./src/ui/index.js"
+  }
+}
